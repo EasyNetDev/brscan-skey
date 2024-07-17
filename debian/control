@@ -1,0 +1,28 @@
+Source: brscan-skey
+Section: Brother
+Priority: extra
+Maintainer: Brother Industries,Ltd
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.8
+
+
+Package: brscan-skey
+Provides: brscan-skey
+Architecture: amd64
+Depends: brscan-skey-libsane1 | brscan-skey-libsane
+Description: Brother Linux scanner S-KEY tool (meta-package)
+
+Package: brscan-skey-libsane1
+Provides: brscan-skey-libsane1
+Architecture: amd64
+Conflicts: brscan-skey-libsane
+Depends: ${misc:Depends}, libc6 (>= 2.2.5), curl, libsane1 (>= 1.0.11-3)
+Description: Brother Linux scanner S-KEY tool
+
+Package: brscan-skey-libsane
+Provides: brscan-skey-libsane
+Architecture: amd64
+Conflicts: brscan-skey-libsane1
+Depends: ${misc:Depends}, libc6 (>= 2.2.5), curl, libsane (>= 1.0.11-3)
+Description: Brother Linux scanner S-KEY tool
+

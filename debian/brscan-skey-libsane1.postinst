@@ -1,0 +1,11 @@
+#!/bin/sh
+mkdir -p --mode=755  /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/brscan_mail.config          /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/brscan-skey.config          /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/brscan-snmp.cfg             /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/scantofile.config           /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/scantoimage.config          /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/scantoocr.config            /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/scantoemail.config          /etc/opt/brother/scanner/brscan-skey/
+ln -s /opt/brother/scanner/brscan-skey/brscan-skey                 /usr/bin/
+bash /opt/brother/scanner/brscan-skey/mk_mailmessage.sh i

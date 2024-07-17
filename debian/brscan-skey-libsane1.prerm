@@ -1,0 +1,13 @@
+#!/bin/sh
+bash /opt/brother/scanner/brscan-skey/mk_mailmessage.sh r
+rm    /etc/opt/brother/scanner/brscan-skey/brscan_mail.config
+rm    /etc/opt/brother/scanner/brscan-skey/brscan-skey.config
+rm    /etc/opt/brother/scanner/brscan-skey/brscan-snmp.cfg
+rm    /etc/opt/brother/scanner/brscan-skey/scantofile.config 
+rm    /etc/opt/brother/scanner/brscan-skey/scantoimage.config
+rm    /etc/opt/brother/scanner/brscan-skey/scantoocr.config  
+rm    /etc/opt/brother/scanner/brscan-skey/scantoemail.config
+rm    /usr/bin/brscan-skey
+rmdir --ignore-fail-on-non-empty /etc/opt/brother/scanner/brscan-skey/
+rmdir --ignore-fail-on-non-empty /etc/opt/brother/scanner/
+rmdir --ignore-fail-on-non-empty /etc/opt/brother
