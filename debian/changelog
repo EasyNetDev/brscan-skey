@@ -1,6 +1,12 @@
+brscan-skey (0.3.2-2) unstable; urgency=medium
+
+  * Add /usr/share/doc/ folder from original brscan-skey to fix building the package.
+
+ -- EasyNetDev <devel@easynet.dev>  Tue, 22 Oct 2024 20:23:41 +0300
+
 brscan-skey (0.3.2-1) unstable; urgency=medium
 
-  * Debian Trixie renamed libsane in libsane1
+  * Debian 13 Trixie renamed libsane in libsane1
   * Fix dependency issue by repacking the files with correct control file
   * Original file is from 24/08/2023
   * There is nothing change in the sources
