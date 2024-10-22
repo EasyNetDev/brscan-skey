@@ -9,7 +9,7 @@ So installing it will fail.
 ## Instalation
 
 ```
-# git clone https://github.dev/EasyNetDev/brscan-skey
+# git clone https://github.com/EasyNetDev/brscan-skey
 # cd brscan-skey
 # dpkg-buildpackage -us -uc -b
 # cd ..
