@@ -1,6 +1,6 @@
 brscan-skey (0.3.2-2) unstable; urgency=medium
 
-  * Add /usr/share/doc/ folder from original brscan-skey to fix building the package.
+  * Removed empty folder /usr/share/doc/ from original brscan-skey to fix building the package.
 
  -- EasyNetDev <devel@easynet.dev>  Tue, 22 Oct 2024 20:23:41 +0300
 

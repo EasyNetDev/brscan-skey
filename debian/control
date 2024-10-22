@@ -5,7 +5,6 @@ Maintainer: Brother Industries,Ltd
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.8
 
-
 Package: brscan-skey
 Provides: brscan-skey
 Architecture: amd64
